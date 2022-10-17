@@ -12,21 +12,21 @@ The Web Scraping is the art of get and gathe web information across from web con
 
 To make a web scrapinng in python we'll use 2 (two) importants libraries for it.
 
-Libraries       |
--------------   |-
-`BeautifulSOup` |
-`urllib`		    |
+Libraries       
+
+- `BeautifulSOup`
+- `urllib`
 
 # BeautifulSoup [Python Library]
 Beautiful Soup is a Python library for pulling data out of HTML and XML files. It works with your favorite parser to provide idiomatic ways of navigating, searching, and modifying the parse tree. It commonly saves programmers hours or days of work. [Source](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
-### |Library Installation
+### Library Installation
 ```python3
 pip install beautifulsoup4
 ```
 
 
-### |Example 1.0
+### Example 1.0
 ```python3
 #!/usr/bin/env python3
 
