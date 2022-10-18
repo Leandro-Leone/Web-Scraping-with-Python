@@ -5,10 +5,10 @@ A repository for review and don't forget some stuff. Learn how to find out to ma
 
 # Web Scraping with Python [English] <img a style="width:48px;height:48px;" src="https://i.gifer.com/origin/a2/a225ed9bc58ac27682481cf443d43de1.gif">
 
-### |What is Web Scraping
+### What is Web Scraping
 The Web Scraping is the art of get and gathe web information across from web connection. Generally is useful for lots of purposes such as extract data, automate task, help people and anothers reasons. [For More Information](https://en.wikipedia.org/wiki/Web_scraping)
 
-### |How to use in Python3
+### How to use in Python3
 
 To make a web scraping in python we'll use 2 (two) importants libraries for it.
 
