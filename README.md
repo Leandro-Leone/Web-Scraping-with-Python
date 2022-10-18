@@ -188,17 +188,17 @@ print(request_url.read())
 
 # Avoiding problems
 
-Now that you are aware to how to use the required libraries you'll need to add some things in your code:
+Now that you are aware to how to use the required libraries, you'll need to add some things in your code:
 
 <img style="width:700px;height:300px;" src="https://imgs.search.brave.com/S65zLLDMhA_f_OrIwsacxtxQNc4XpK6Y8oFcnLrhXE0/rs:fit:800:600:1/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJzLzQwNDcw/MzQvc2NyZWVuc2hv/dHMvOTE3NjI3NS9t/ZWRpYS9iNDBlMGQ2/YzExNTYzNGE2MmVj/NTFjOWI2OGExNmYz/Zi5naWY.gif">
 
-Was possible to see there are lots of ways to make web scraping, although you will need the things below to avoid future problems.
+It was possible to see there are lots of ways to make web scraping, although you will need the things below to avoid future problems.
 
 - Use Headers on Request
 
 headers = {"User-Agent": "Mozilla/5.0"}
 
-- Use lxml for get strings and prevent from others issues.
+- Use lxml to get strings and prevent from others issues.
 
 features = "lxml"
 
@@ -228,7 +228,7 @@ print(soup)
 
 ```
 
-### An example of a successfully web scrap news on site g1 from Brazil to get information.
+### An example of a successful web scrap news on site g1 from Brazil to get information.
 
 ```python3
 from urllib.request import Request, urlopen
@@ -265,7 +265,7 @@ for x in (soup.find_all('a',{"class": "feed-post-link gui-color-primary gui-colo
 
 [Studying Mark Down 3](https://raw.githubusercontent.com/aboul3la/Sublist3r/master/README.md)
 
-[How to filtrer a class with web scraping](https://stackoverflow.com/questions/5041008/how-to-find-elements-by-class)
+[How to filter a class with web scraping](https://stackoverflow.com/questions/5041008/how-to-find-elements-by-class)
 
 [Studying BeautifulSoup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
@@ -275,6 +275,6 @@ for x in (soup.find_all('a',{"class": "feed-post-link gui-color-primary gui-colo
 
 [Web scraping with Python urllib or requests](https://stackoverflow.com/questions/48246875/web-scraping-with-python-urllib-or-requests)
 
-[I was thinking but did not use to translate for english with python. I might do it very soon.](https://search.brave.com/search?q=translate+to+english+in+python&source=desktop)
+[I thinking but did not use to translate for english with python. I might do it very soon.](https://search.brave.com/search?q=translate+to+english+in+python&source=desktop)
 
 [TypeError: urlopen() got an unexpected keyword argument 'headers'](https://stackoverflow.com/questions/32071337/typeerror-urlopen-got-an-unexpected-keyword-argument-headers)
