@@ -6,11 +6,11 @@ A repository for review and don't forget some stuff. Learn how to find out to ma
 # Web Scraping with Python [English] <img a style="width:48px;height:48px;" src="https://i.gifer.com/origin/a2/a225ed9bc58ac27682481cf443d43de1.gif">
 
 ### |What is Web Scraping
-The Web Scraping is the art of get and gathe web information across from web connection. Generraly is useful for lots of purposes such as extract data, automate task, help people and anothers reasons. [For More Informmation](https://en.wikipedia.org/wiki/Web_scraping)
+The Web Scraping is the art of get and gathe web information across from web connection. Generally is useful for lots of purposes such as extract data, automate task, help people and anothers reasons. [For More Information](https://en.wikipedia.org/wiki/Web_scraping)
 
 ### |How to use in Python3
 
-To make a web scrapinng in python we'll use 2 (two) importants libraries for it.
+To make a web scraping in python we'll use 2 (two) importants libraries for it.
 
 Libraries       
 
@@ -58,7 +58,7 @@ A variable that contains the HTML content.
 
 from bs4 import BeautifulSoup
 
-# Step 2 - Getinng The Content
+# Step 2 - Getting The Content
 
 html_content = """<html><head><title>The Dormouse's story</title></head>
 <body>
@@ -188,11 +188,11 @@ print(request_url.read())
 
 # Avoiding problems
 
-Now that you are aware to how to use the required kibraries you'll need to add some things in your code:
+Now that you are aware to how to use the required libraries you'll need to add some things in your code:
 
 <img style="width:700px;height:300px;" src="https://imgs.search.brave.com/S65zLLDMhA_f_OrIwsacxtxQNc4XpK6Y8oFcnLrhXE0/rs:fit:800:600:1/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJzLzQwNDcw/MzQvc2NyZWVuc2hv/dHMvOTE3NjI3NS9t/ZWRpYS9iNDBlMGQ2/YzExNTYzNGE2MmVj/NTFjOWI2OGExNmYz/Zi5naWY.gif">
 
-Was possible to see there are lots of ways to make web scraping, althought you will need the things bellow to avoid future problems.
+Was possible to see there are lots of ways to make web scraping, although you will need the things below to avoid future problems.
 
 - Use Headers on Request
 
@@ -228,14 +228,14 @@ print(soup)
 
 ```
 
-### An example of a sucessfuly web scrap news on site g1 from Brazil to get information.
+### An example of a successfully web scrap news on site g1 from Brazil to get information.
 
 ```python3
 from urllib.request import Request, urlopen
 from os import system as exe
 from bs4 import BeautifulSoup
 
-exe("cl")
+exe("clear")
 
 web = Request("https://g1.globo.com/", headers = {"User-Agent": "Mozilla/5.0"})
 
@@ -246,7 +246,7 @@ soup = BeautifulSoup(
 
 for x in (soup.find_all('a',{"class": "feed-post-link gui-color-primary gui-color-hover"})):
 
-        print("Noticia: ", x.string)
+        print(Fore.GREEN+"Noticia: ", Fore.GREEN+x.string)
         print("Link: ", x['href'], "\n")
 
 ```
@@ -259,15 +259,15 @@ for x in (soup.find_all('a',{"class": "feed-post-link gui-color-primary gui-colo
 
 **All Resources used/ Studied**
 
-[Studing Mark Down](https://raw.githubusercontent.com/Al0nnso/Al0nnso/master/README.md)
+[Studying Mark Down](https://raw.githubusercontent.com/Al0nnso/Al0nnso/master/README.md)
 
-[Studing Mark Down 2](https://raw.githubusercontent.com/Leandro-Leone/Leandro/main/README.md)
+[Studying Mark Down 2](https://raw.githubusercontent.com/Leandro-Leone/Leandro/main/README.md)
 
-[Studing Mark Down 3](https://raw.githubusercontent.com/aboul3la/Sublist3r/master/README.md)
+[Studying Mark Down 3](https://raw.githubusercontent.com/aboul3la/Sublist3r/master/README.md)
 
 [How to filtrer a class with web scraping](https://stackoverflow.com/questions/5041008/how-to-find-elements-by-class)
 
-[Studing BeautifulSoup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+[Studying BeautifulSoup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
 [How to get a link by Tag](https://stackoverflow.com/questions/1080411/retrieve-links-from-web-page-using-python-and-beautifulsoup)
 
