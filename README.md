@@ -241,8 +241,10 @@ web = Request("https://g1.globo.com/", headers = {"User-Agent": "Mozilla/5.0"})
 
 
 soup = BeautifulSoup(
-          				  urlopen(web).read().decode(), "lxml"
-					)
+          			
+			urlopen(web).read().decode(), "lxml"
+				
+		     )
 
 for x in (soup.find_all('a',{"class": "feed-post-link gui-color-primary gui-color-hover"})):
 
