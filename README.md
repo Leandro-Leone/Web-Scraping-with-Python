@@ -234,6 +234,9 @@ print(soup)
 from urllib.request import Request, urlopen
 from os import system as exe
 from bs4 import BeautifulSoup
+from colorama import *
+
+init(autoreset=True)
 
 exe("clear")
 
